@@ -15,12 +15,12 @@ function LargeScreenCard() {
 
  <div className='flex gap-5 items-start'>
          {/* Gallery */}
-         <div className='w-[40%] xl:w-full  grid gap-5 border'>
-            <div className='w-full h-[507px] border relative'><Image src='/assets/image.png'  alt='maps' layout='fill' className='w-[100%] h-[100%]'/></div>
+         <div className='w-[40%] xl:w-full  grid gap-5 '>
+            <div className='w-full h-[507px]  relative'><Image src='/assets/image.png'  alt='maps' layout='fill' className='w-[100%] h-[100%]'/></div>
             <div className='flex gap-5 justify-between'>
-           <div className='w-full h-[161px] border relative'><Image src='/assets/image2.jpg'  alt='maps' layout='fill' className='w-[100%] h-[100%]'/></div>
-           <div className='w-full h-[161px] border relative'><Image src='/assets/image3.jpg'  alt='maps' layout='fill' className='w-[100%] h-[100%]'/></div>
-           <div className='w-full h-[161px] border relative'><Image src='/assets/image4.png'  alt='maps' layout='fill' className='w-[100%] h-[100%]'/></div>
+           <div className='w-full h-[161px]  relative'><Image src='/assets/image2.jpg'  alt='maps' layout='fill' className='w-[100%] h-[100%]'/></div>
+           <div className='w-full h-[161px]  relative'><Image src='/assets/image3.jpg'  alt='maps' layout='fill' className='w-[100%] h-[100%]'/></div>
+           <div className='w-full h-[161px]  relative'><Image src='/assets/image4.png'  alt='maps' layout='fill' className='w-[100%] h-[100%]'/></div>
             </div>
          </div>
          {/* Content */}
